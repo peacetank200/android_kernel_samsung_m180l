@@ -26,8 +26,8 @@ fi
 
 TARGET_LOCALE="kor"
 
-TOOLCHAIN="/opt/toolchains/arm-eabi-4.4.0/bin"
-TOOLCHAIN_PREFIX=arm-eabi-
+TOOLCHAIN="/opt/toolchains/arm-2009q3/bin"
+TOOLCHAIN_PREFIX=arm-none-linux-gnueabi-
 
 KERNEL_BUILD_DIR=`pwd`/Kernel
 ANDROID_OUT_DIR=`pwd`/Android/out/target/product/SHW-M180L
